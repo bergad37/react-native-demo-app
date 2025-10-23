@@ -5,11 +5,11 @@ export default function TabsLayout() {
   return (
     <Tabs
       screenOptions={{
-        tabBarActiveTintColor: '#fff',
-        headerStyle: { backgroundColor: '#033260' },
+        tabBarActiveTintColor: ' #033260',
+        headerStyle: { backgroundColor: '#fff' },
         headerShadowVisible: false,
-        headerTintColor: '#fff',
-        tabBarStyle: { backgroundColor: '#033260' }
+        headerTintColor: '#033260',
+        tabBarStyle: { backgroundColor: '#fff' }
       }}
     >
       <Tabs.Screen
@@ -20,7 +20,7 @@ export default function TabsLayout() {
             <Ionicons
               name={focused ? 'home-sharp' : 'home-outline'}
               size={30}
-              color={'#fff'}
+              color={'#033260'}
             />
           ),
           headerLeft: () => <></>
@@ -34,7 +34,7 @@ export default function TabsLayout() {
             <Ionicons
               name={focused ? 'information' : 'information-outline'}
               size={30}
-              color={'#fff'}
+              color={'#033260'}
             />
           )
         }}

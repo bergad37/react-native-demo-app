@@ -4,7 +4,7 @@ import { StatusBar } from 'react-native';
 export default function RootLayout() {
   return (
     <>
-      <StatusBar barStyle={'light-content'} />
+      <StatusBar barStyle={'dark-content'} />
       <Stack>
         <Stack.Screen
           name="(tabs)"
